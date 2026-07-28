@@ -119,13 +119,22 @@ img {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--font-heading);
   font-size: 1.4rem;
   font-weight: 600;
   color: var(--color-navy);
 }
 
-.logo span {
+.logo-mark {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.logo .accent {
   color: var(--color-rust);
 }
 
